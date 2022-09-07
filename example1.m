@@ -78,4 +78,15 @@ function output = exercise(input)
 output = input.*2
 end
 %%
-  
+function [output]=exercise(x,y)
+output=x.^2+y.^2;
+end
+
+%Script
+x=0:pi/10:pi;
+y=x;
+[X,Y]=meshgrid(x,y);
+f=exercise(X,Y);
+contour(X,Y,f)
+axis([0 pi 0 pi])
+axis equal
