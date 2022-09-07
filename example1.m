@@ -67,5 +67,5 @@ b=input('');
 c=a+b;
 whos
 disp(['Their sum is ' num2str(c)])
-disp(['Their product is ' num2str(a*b)])
+disp(['Their product is ' num2str(a*b)])%[]없으면 안됨
   
