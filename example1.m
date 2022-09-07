@@ -87,6 +87,6 @@ x=0:pi/10:pi;
 y=x;
 [X,Y]=meshgrid(x,y);    %X,Y 묶음
 f=exercise(X,Y);        %
-contour(X,Y,f)
-axis([0 pi 0 pi])
+contour(X,Y,f)          %찾아봐라
+axis([0 pi 0 pi])       %마찬가지
 axis equal
