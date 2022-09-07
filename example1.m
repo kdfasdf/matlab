@@ -70,7 +70,7 @@ disp(['Their sum is ' num2str(c)])
 disp(['Their product is ' num2str(a*b)])%[]없으면 안됨
 
 %%
-%이거 왜 로컬 함수로 
+%이거 왜 로컬 함수로 인식되는지
 clearvars
 clear all
 clc
